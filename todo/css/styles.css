@@ -1,0 +1,73 @@
+* {
+}
+
+body {
+   margin: 0;
+   padding: 0;
+   font-size: 14px;
+}
+
+li {
+   list-style: none;
+   padding: 10px;
+   margin: 0;
+}
+
+button {
+}
+
+ul {
+   margin: 0;
+   padding: 0;
+}
+
+.wrapper {
+   width: 300px;
+   padding: 30px;
+}
+
+.todo-items li.completed .item {
+   text-decoration: line-through;
+}
+
+.todo-items li {
+   display: flex;
+   justify-content: space-between;
+   border-bottom: 1px solid grey;
+}
+
+.todo-items li:last-child {
+   border-bottom: none;
+}
+
+.todo-items li:hover {
+   background: rgba(0, 0, 0, 0.1);
+}
+
+.todo-items div span {
+   margin: 5px;
+   font-size: 1em;
+   cursor: pointer;
+}
+
+.new-item {
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 10px;
+}
+
+.new-item input {
+   flex: 1;
+   padding: 5px 5px;
+   margin-right: 5px;
+}
+
+.actions {
+   margin-top: 20px;
+   display: flex;
+   justify-content: space-around;
+}
+
+.actions .action-item.active {
+   background-color: yellow;
+}

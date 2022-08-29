@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8" />
+      <title>Todo List</title>
+
+      <link rel="stylesheet" href="./css/styles.css" />
+   </head>
+   <body>
+      <div class="wrapper">
+         <div class="new-item">
+            <input type="text" />
+            <button>Save</button>
+         </div>
+
+         <ul class="todo-items"></ul>
+
+         <div class="actions">
+            <button class="action-item" data-change="all">Tất cả</button>
+            <button class="action-item" data-change="completed">
+               Hoàn thành
+            </button>
+            <button class="action-item" data-change="doing">
+               Đang thực hiện
+            </button>
+         </div>
+      </div>
+   </body>
+   <script src="js/popup.js"></script>
+</html>
